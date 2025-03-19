@@ -13,7 +13,9 @@ function CountryDetails({ countries }) {
 
   return (
     <div className="country-details">
-      <a href="/" className="back">Back</a>
+      <Link to="/" className="back">
+        Back
+      </Link>
       <img
         src={country.flags.svg}
         alt={country.name.common}
