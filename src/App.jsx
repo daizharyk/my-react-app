@@ -23,7 +23,7 @@ function Layout({
 
   return (
     <div className="app">
-      <img className="title" src="./public/svg/Logo.svg" alt="" />
+      <img className="title" src="./svg/Logo.svg" alt="" />
 
       <div className={`container ${isDetailsPage ? "container--small" : ""}`}>
         {location.pathname === "/" && (
