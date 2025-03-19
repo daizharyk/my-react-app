@@ -19,12 +19,13 @@ function Layout({
   setFilteredCountries,
 }) {
   const location = useLocation();
+  const isDetailsPage = location.pathname.startsWith("/country/");
 
   return (
     <div className="app">
       <img className="title" src="./public/svg/Logo.svg" alt="" />
 
-      <div className="container">
+      <div className={`container ${isDetailsPage ? "container--small" : ""}`}>
         {location.pathname === "/" && (
           <SearchBar
             countries={countries}
