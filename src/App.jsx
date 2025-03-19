@@ -56,7 +56,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/my-react-app">
+    <Router basename="/">
       <Routes>
         <Route
           path="/"
