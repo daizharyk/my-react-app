@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 function SearchBar({ countries, filteredCountries, setFilteredCountries }) {
   const [searchTerm, setSearchTerm] = useState("");
   const [debouncedSearchTerm, setDebouncedSearchTerm] = useState("");
-  console.log("filtered", filteredCountries);
+
 
   useEffect(() => {
     const timeout = setTimeout(() => {

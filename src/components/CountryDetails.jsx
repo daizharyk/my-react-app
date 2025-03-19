@@ -2,14 +2,14 @@ import { useParams, Link } from "react-router-dom";
 
 function CountryDetails({ countries }) {
   const { countryName } = useParams();
-  console.log(countryName);
+
 
   const country = countries.find((c) => c.name.common === countryName);
 
   if (!country) {
     return <h2>Country not found</h2>;
   }
-  console.log(countries);
+
 
   return (
     <div className="country-details">
