@@ -76,4 +76,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Author
 
-- GitHub [@your-username](https://{github.com/daizharyk})
+- GitHub [@daizharyk](https://{github.com/daizharyk})
